@@ -4,7 +4,7 @@ function handleSearch(event) {
     const query = document.getElementById("input1").value;
   
     // Input your own api in the quotations below
-    const api_key = "";
+    const api_key = ""
     const model = "image-alpha-001";
     const prompt = query;
     const response_format = "url";
